@@ -40,7 +40,6 @@ class deploy ( $vhost_name = 'localhost' ) {
 	package { 'git':
 		ensure => 'installed'
 	}
-	
 	vcsrepo { "/var/www/simple-sinatra-app":
 		ensure => 'present',
 		provider => 'git',
