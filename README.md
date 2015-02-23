@@ -8,4 +8,4 @@ A unix server running Puppet with modules as following: apache, firewall and vcs
 Use the script deploy.pp in the manifest to deploy. 
 	
 ### Tests
-Solution only. Have not been tested yet. 
+Pass on RedHat 5
